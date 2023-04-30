@@ -53,7 +53,7 @@ const Carousel: FC<CarouselProps> = ({ }) => {
     
     
     return (
-        <div className='showBtns relative w-full  overflow-hidden text-white' style={{aspectRatio:2000/871}}>
+        <div className='showBtns relative w-full  overflow-hidden text-white aspect-[2000/871]' >
             <AnimatePresence
 
                 key={currentSlide}>
@@ -108,7 +108,7 @@ const Carousel: FC<CarouselProps> = ({ }) => {
                     
                   
                 }}
-                className='absolute top-[45%] right-[5%] z-20 opacity-0 text-[28px] duration-300 hover:scale-125'>
+                className='absolute top-[45%] right-[5%] z-20 lg:opacity-0 text-[28px] duration-300 hover:scale-125'>
                 <FcNext />
             </button>
             <button
@@ -117,7 +117,7 @@ const Carousel: FC<CarouselProps> = ({ }) => {
                   
                    
                 }}
-                className='absolute top-[45%] left-[5%] z-20  text-[28px] opacity-0 duration-300 hover:scale-125'>
+                className='absolute top-[45%] left-[5%] z-20  text-[28px] lg:opacity-0 duration-300 hover:scale-125'>
                 <FcPrevious />
             </button>
         </div>

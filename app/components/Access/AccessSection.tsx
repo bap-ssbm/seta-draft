@@ -16,7 +16,7 @@ const AccessSection: FC<AccessSectionProps> = ({ }) => {
                 </h1>
 
                 <Image height={500} width={1000} alt='' src='/images/AO_Map.png' />
-                <div className='flex gap-10 flex-col md:flex-row p-10 border'>
+                <div className='flex gap-10 flex-col md:flex-row p-10 md:border'>
                     <div className='flex gap-5 md:pr-10 pb-10 md:pb-0 border-b md:border-r md:border-b-0 justify-center items-center'>
 
 

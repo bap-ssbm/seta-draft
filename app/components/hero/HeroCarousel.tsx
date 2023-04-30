@@ -10,7 +10,7 @@ interface HeroCarouselProps {
 const HeroCarousel: FC<HeroCarouselProps> = ({ }) => {
    
     return (
-        <div className='relative grid place-content-center w-full h-full'>
+        <div className='relative grid place-content-center w-full'>
             <Carousel/>
 
             <div className='z-10 absolute top-0 left-0 w-full h-full grid place-content-center pointer-events-none'>

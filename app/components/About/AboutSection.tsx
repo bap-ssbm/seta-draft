@@ -7,14 +7,14 @@ interface AboutSectionProps {
 
 const AboutSection: FC<AboutSectionProps> = ({ }) => {
     return (
-        <div className=' w-full p-[5%] grid place-content-center bg-blie text-white bg-blue-950'>
+        <div className=' w-full p-[5%] py-16 grid place-content-center bg-blie text-white bg-blue-950'>
 
             <h1 className='text-[23px] italic underline tracking-[2px] mb-5'>
                 About The Chef
             </h1>
-            <div className='w-full flex gap-20 flex-col lg:flex-row'>
+            <div className='w-full flex gap-20 flex-col lg:flex-row mt-10'>
 
-                <div className='p-10 lg:px-0 h-fit bg-white mx-10'>
+                <div className='p-5 lg:px-0 h-fit bg-white '>
 
                     <Image className='lg:translate-x-10' src='/images/ritsuko1.jpg' alt='' height={400} width={400} />
                 </div>
