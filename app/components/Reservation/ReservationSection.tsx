@@ -18,12 +18,12 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
                             Schedule
                         </h1>
                         <div className='w-full'>
-                        <Image height={502} width={1758} src='/images/date.png' alt='' />
+                        <img  src='/images/date.png' alt='' />
                         </div>
                         
                     </div>
                     <div className='p-8  bg-white  lg:ml-10'>
-                        <Image height={50} width={400} src='/images/seta_tables.jpg' alt='' />
+                        <img  src='/images/seta_tables.jpg' alt='' />
                     </div>
 
 
