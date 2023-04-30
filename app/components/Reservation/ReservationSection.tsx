@@ -9,7 +9,7 @@ interface ReservationSectionProps {
 const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
     return (
         <div className='px-[4%] py-16 w-full grid place-content-center lg:p-[5%]   bg-blue-950'>
-            <div className='flex lg:flex-row flex-col w-full px-[4%] justify-center gap-10 lg:max-w-[1200px]'>
+            <div className='flex lg:flex-row flex-col w-full px-[2%] justify-center gap-10 lg:max-w-[1200px]'>
                 <div
                     className='flex flex-col gap-10'>
                     <div className='relative' >
@@ -30,7 +30,7 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
 
 
 
-                <div className=' flex flex-col  gap-5 p-10 bg-white rounded-md shadow-md w-full items-center h-fit'>
+                <div className=' flex flex-col  gap-5 p-5 md:p-10 bg-white rounded-md shadow-md w-full items-center h-fit'>
                     <h1 className='text-[23px] italic tracking-[3px] mb-2 lg:w-full underline'>
                         Information
                     </h1>
