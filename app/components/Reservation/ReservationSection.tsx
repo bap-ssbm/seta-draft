@@ -17,7 +17,10 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
                         <h1 className='mb-5 text-white text-[23px] italic tracking-[3px] text-center lg:text-start'>
                             Schedule
                         </h1>
+                        <div className='w-full'>
                         <Image height={502} width={1758} src='/images/date.png' alt='' />
+                        </div>
+                        
                     </div>
                     <div className='p-8  bg-white  lg:ml-10'>
                         <Image height={50} width={400} src='/images/seta_tables.jpg' alt='' />
