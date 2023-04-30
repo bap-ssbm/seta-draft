@@ -18,7 +18,7 @@ export default function RootLayout({
 
       </head>
 
-      <body className='min-h-screen flex flex-col font-EB-garamond text-slate-700 text-[16px]'>
+      <body className='min-h-screen flex flex-col font-EB-garamond text-slate-700 text-[16px] overflow-x-hidden'>
 
         <Navbar />
         <div className='pt-[50px] lg:pt-[150px]'>

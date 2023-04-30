@@ -9,17 +9,17 @@ interface ReservationSectionProps {
 const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
     return (
         <div className='p-[4%] w-full grid place-content-center lg:p-[5%]   bg-blue-950'>
-            <div className='flex md:flex-row flex-col w-full justify-center gap-10 max-w-[1200px]'>
+            <div className='flex lg:flex-row flex-col w-full justify-center gap-10 max-w-[1200px]'>
                 <div
                     style={{ aspectRatio: 1758 / 502 }}
                     className='flex flex-col gap-10'>
-                    <div className=''>
+                    <div className='w-screen px-[2%] md:w-auto' >
                         <h1 className='mb-5 text-white text-[23px] italic tracking-[3px] text-center lg:text-start'>
                             Schedule
                         </h1>
                         <Image height={502} width={1758} src='/images/date.png' alt='' />
                     </div>
-                    <div className='p-8  bg-white ml-10'>
+                    <div className='p-8  bg-white mx-10 lg:ml-10'>
                     <Image height={50} width={400} src='/images/seta_tables.jpg' alt='' />
                     </div>
                     
@@ -28,7 +28,7 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
                
                
               
-                <div className='text-[16px] flex flex-col gap-5 p-10 bg-white rounded-md shadow-md w-fit items-center'>
+                <div className='text-[16px] flex flex-col gap-5 p-10 bg-white rounded-md shadow-md w-fit items-center mx-[4%] md:mx-0'>
                     <h1 className='text-[23px] italic tracking-[3px] mb-2 lg:w-full underline'>
                         Information
                     </h1>

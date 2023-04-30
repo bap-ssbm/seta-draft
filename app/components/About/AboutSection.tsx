@@ -14,9 +14,9 @@ const AboutSection: FC<AboutSectionProps> = ({ }) => {
             </h1>
             <div className='w-full flex gap-20 flex-col lg:flex-row'>
 
-                <div className='py-10 bg-white mx-10'>
+                <div className='p-10 lg:px-0 h-fit bg-white mx-10'>
 
-                    <Image className='translate-x-10' src='/images/ritsuko1.jpg' alt='' height={400} width={400} />
+                    <Image className='lg:translate-x-10' src='/images/ritsuko1.jpg' alt='' height={400} width={400} />
                 </div>
 
                 <div className='max-w-[500px] '>
