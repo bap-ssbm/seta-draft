@@ -11,9 +11,8 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
         <div className='px-[4%] py-16 w-full grid place-content-center lg:p-[5%]   bg-blue-950'>
             <div className='flex lg:flex-row flex-col w-full px-[4%] justify-center gap-10 lg:max-w-[1200px]'>
                 <div
-                    style={{ aspectRatio: 1758 / 502 }}
                     className='flex flex-col gap-10'>
-                    <div className=' md:w-auto' >
+                    <div className='relative' >
                         <h1 className='mb-5 text-white text-[23px] italic tracking-[3px] text-center lg:text-start'>
                             Schedule
                         </h1>
@@ -31,7 +30,7 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
 
 
 
-                <div className=' flex flex-col  gap-5 p-10 bg-white rounded-md shadow-md w-full items-center '>
+                <div className=' flex flex-col  gap-5 p-10 bg-white rounded-md shadow-md w-full items-center h-fit'>
                     <h1 className='text-[23px] italic tracking-[3px] mb-2 lg:w-full underline'>
                         Information
                     </h1>
