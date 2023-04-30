@@ -9,7 +9,7 @@ interface ReservationSectionProps {
 const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
     return (
         <div className='px-[4%] py-16 w-full grid place-content-center lg:p-[5%]   bg-blue-950'>
-            <div className='flex lg:flex-row flex-col w-full justify-center gap-10 max-w-[1200px]'>
+            <div className='flex lg:flex-row flex-col w-full justify-center gap-10 md:max-w-[1200px]'>
                 <div
                     style={{ aspectRatio: 1758 / 502 }}
                     className='flex flex-col gap-10'>
