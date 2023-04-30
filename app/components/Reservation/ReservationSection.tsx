@@ -1,5 +1,4 @@
 import { FC } from 'react'
-import Image from 'next/image'
 import { BsInstagram, BsFacebook } from 'react-icons/bs'
 import Button from '../ui/Button'
 interface ReservationSectionProps {
@@ -9,19 +8,17 @@ interface ReservationSectionProps {
 const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
     return (
         <div className='px-[4%] py-16 w-full grid place-content-center lg:p-[5%]   bg-blue-950'>
-            <div className='flex lg:flex-row flex-col w-full px-[2%] justify-center gap-10 lg:max-w-[1200px]'>
+            <div className='flex lg:flex-row flex-col w-full px-[2%] justify-center gap-10 lg:max-w-[1300px]'>
                 <div
                     className='flex flex-col gap-10'>
                     <div className='relative' >
                         <h1 className='mb-5 text-white text-[23px] italic tracking-[3px] text-center lg:text-start'>
                             Schedule
                         </h1>
-                        <div className='w-full'>
-                        <img  src='/images/date.png' alt='' />
-                        </div>
+                        
                         
                     </div>
-                    <div className='p-8  bg-white  lg:ml-10'>
+                    <div className='p-8 lg:pl-20 bg-white'>
                         <img  src='/images/seta_tables.jpg' alt='' />
                     </div>
 
@@ -34,6 +31,9 @@ const ReservationSection: FC<ReservationSectionProps> = ({ }) => {
                     <h1 className='text-[23px] italic tracking-[3px] mb-2 lg:w-full underline'>
                         Information
                     </h1>
+                    <div className='w-full'>
+                        <img  src='/images/date.png' alt='' />
+                        </div>
                     <div className='flex flex-col md:flex-row gap-5'>
 
                         <p className='font-bold  text-center md:text-start md:whitespace-nowrap'>
