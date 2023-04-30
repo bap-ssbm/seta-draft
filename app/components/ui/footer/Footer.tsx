@@ -48,7 +48,7 @@ const Footer: FC<FooterProps> = ({ }) => {
                     </a>
 
                 </div>
-                <div className='flex  gap-5 items-center h-fit  text-[30px]'>
+                <div className='flex justify-center gap-5 items-center h-fit  text-[30px]'>
                     
                     <a href='https://www.instagram.com/hayama_setatei/' className='hover:text-red-300 duration-300'>
                       
