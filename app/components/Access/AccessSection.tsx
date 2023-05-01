@@ -40,7 +40,7 @@ const AccessSection: FC<AccessSectionProps> = ({ lng }) => {
                         </div>
                     </div>
                     <div className='flex flex-col gap-10'>
-                        <div>
+                        <div className='max-w-[800px]'>
                             <p className='font-bold mb-2 underline text-blue-950'>
                                 {translation.busTitle}
                             </p>
