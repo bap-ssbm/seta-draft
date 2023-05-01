@@ -9,12 +9,7 @@ const nextConfig = {
   },
   images: {
     domains: ['images.pexels.com'],
-  },
-  exportPathMap: function () {
-    return {
-      '/': { page: '/ja' }
-    }
-  },
+  }
 }
 
 module.exports = nextConfig
