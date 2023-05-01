@@ -14,7 +14,7 @@ type Params = {
   }
 }
 
-export default function Home({params: {lng}} : Params) {
+export default function Page({params: {lng}} : Params) {
   
   return (
     <div className='flex flex-col items-center gap-20 mb-10'>
